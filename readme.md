@@ -14,8 +14,7 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 
 ![](https://visit-counter.vercel.app/counter.png?page=miy00-chi/AD-MeetingCalendar-Mito)
 
@@ -26,7 +25,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,22 +52,16 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
 
 Description of the project in details.
 
 ### Key Components
-
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 
 - Authentication & Authorization
 - CRUD Operations for Invetory System
 
 ### Technology
 
-<!-- TODO: List of Technology Used -->
 #### Language
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -85,8 +77,6 @@ Description of the project in details.
 
 
 ## Rules, Practices and Principles
-
-<!-- Do not Change this -->
 
 1. Always use `AD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename `.php` files if they are pages; always use `index.php` as the filename.
@@ -146,7 +136,6 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
