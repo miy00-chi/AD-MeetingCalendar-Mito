@@ -1,8 +1,8 @@
 services:
-  AD-MeetingCalendar-Mito:
+  ad-meetingcalendar-mito:
     build:
       context: .
-    container_name: AD-MeetingCalendar-Mito-service
+    container_name: ad-meetingcalendar-mito-service
     ports:
       - "8000:8000"
     develop:
@@ -19,7 +19,7 @@ services:
 
   mongodb:
     image: mongo:latest
-    container_name: AD-MeetingCalendar-Mito-mongodb
+    container_name: ad-meetingcalendar-mito-mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: rootPassword
@@ -27,11 +27,11 @@ services:
     ports:
       - "27111:27017"
     volumes:
-      - AD-MeetingCalendar-Mito-mongodb:/data/db/mongodb
+      - ad-meetingcalendar-mito-mongodb:/data/db/mongodb
 
   postgresql:
     image: postgres:15
-    container_name: AD-MeetingCalendar-Mito-postgresql
+    container_name: ad-meetingcalendar-mito-postgresql
     restart: always
     environment:
       POSTGRES_USER: user
@@ -40,10 +40,10 @@ services:
     ports:
       - "5112:5432"
     volumes:
-      - AD-MeetingCalendar-Mito-postgresql:/data/db/postgresql
+      - ad-meetingcalendar-mito-postgresql:/data/db/postgresql
 
 volumes:
-  AD-MeetingCalendar-Mito-mongodb:
+  ad-meetingcalendar-mito-mongodb:
     driver: local
-  AD-MeetingCalendar-Mito-postgresql:
+  ad-meetingcalendar-mito-postgresql:
     driver: local
